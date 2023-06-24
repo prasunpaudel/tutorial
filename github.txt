@@ -1,0 +1,34 @@
+1. git clone => github ma vayeko (already rakheko) tapai ko ya aru manchey ko project    command line bata download garna yo use hunxa
+
+    eg: git clone https://github.com/githubkoprijectkoname.git
+
+2. git init: git hamro folder ma git initilize gardinxa jasko karad ley hamiley git ka command haru chalauna milxa. yo garesi hamro main folder ma .git vanni folder aauxa jun chai hidden hunxa,
+
+3. git status: git status ley hamro kunai yeuta folder ma ke change garyo k delete garyo jasto tracks rakhxa rw tyo safe xa ki xaina vanni hamlai batauxa
+
+
+git status garda normally 3 tarika ka file haru bughna sakinxa:\
+        -untracked jasko color red hunxa yedi yo dekhio vaney git add . command hannu hola,
+            git add . : hamra jati pani vayeka untracked file lai tracked file ma convert gardinxa
+            yaniki rato file haru lai hario file ma convert handinxa
+
+        -unstaged file: jasko color chai hariho hunxa yo dekhi vaney chai tpailey git commit -m "detaisl" lekhera commit garera rakhnuparxa. git commit -m "k gario vanni details lekhni"
+
+git branch: branch haru ko list dekhauxa
+
+naya branch banauna: git branch branch_name,
+branch swith garna: git checkout branch_name,
+
+github ko active branch ko name change garna ko lagi git branch -M new_branch_name,
+
+git remote add remote_name github_url
+remote ko kam chai hamro folder yaniki hamro local file ma vayeko folder rw server yaniki github ko repository lai link garaidinxu jasko sayeta ley mailey github rw mero folder bich code exchange hanna sakxu,  
+
+git push remote_name branch_name:
+eg: git push origin main yesley hamro local ko folder lai server ma push handinxa tara yesko lagi file staged hunu parxa
+
+git pull:
+git pull command ley chai github ma vayeko code lai hamro local ma tehi github ko details vayeko folder ma laidinxa.
+
+eg: git pull remote_name branch_name,
+
